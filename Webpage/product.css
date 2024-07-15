@@ -1,0 +1,154 @@
+.productshow{
+  /* background: gold; */
+  width: 100%;
+  height: 100%;
+  padding: 100px;
+  margin-left: 70px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px
+  
+}
+.product-item{
+cursor: pointer;
+}
+
+.imgproduct{
+width: 80%;
+height: 25vw;
+object-fit: cover;
+/* border-radius: 10px; */
+}
+.imgproduct:hover{
+transform: scale(1.03);
+transition: all 0.5s ease;
+}
+.product-info{
+display: flex;
+justify-content: space-between;
+margin-right: 110px;
+margin-top: 10px;
+}
+.modal{
+width: 100%;
+height: 100%;
+background: rgba(0,0,0,0.5);
+position: fixed;
+top: 0;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-page{
+width: 90vw;
+height:45vw;
+background: rgb(245, 245, 245);
+border-radius: 30px;
+padding: 20px;
+margin-left: 90px;
+}
+.modaldesc-content{
+/* background: aqua; */
+width: 75vw;
+height:30vw;
+display:flex;
+margin-top: 40px;
+justify-content: space-between;
+}
+.modaldesc-detail{
+/* background: green; */
+width: 60%;
+margin-right: 100px;
+margin-left: 50px;
+}
+.modalimg{
+height: 30vw;
+width: 30vw;
+margin-left: 60px;
+}
+.imgdetail{
+/* background: palevioletred; */
+width: 26vw;
+height: 7vw;
+margin-left: 50px;
+align-content: center;
+}
+.imgdetailshow{
+height: 5vw;
+width: 5vw;
+align-content: center;
+object-fit: cover;
+}
+.imgdetailshow:hover{
+opacity: 70%;
+cursor: pointer;
+}
+.modalunder{
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+.btncart{
+background: #60606A; 
+height: 4vw;
+width: 10vw;
+margin-right: 150px;
+align-content: center;
+align-self: center;
+border-radius: 40px;
+text-align: center;
+}
+.btncart:hover{
+transition: all 0.5s ease;
+transform: scale(1.03);
+opacity: 70%;
+cursor: pointer;
+}
+.logofooter{
+width: 26vw;
+height: 7vw;
+}
+.Shirtpage{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.ShirtBG{
+width: 90vw;
+height:60vw;
+/* background: blue; */
+padding: 20px;
+}
+.ShirtShow{
+/* background: gold; */
+display:flex;
+align-content: start;
+}
+.shirtshowimg{
+width: 150%;
+height: 150%;
+}
+.imgshow{
+width: 30vw;
+height: 40vw;
+}
+.detailpd{
+/* background: palegreen; */
+}
+.tagproduct{
+display: flex;
+/* background: saddlebrown; */
+margin-bottom: 20px;
+}
+.preview-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* ปรับขนาดสูงสุดของรูปภาพ */
+}
+.imgpayment{
+  object-fit: cover;
+  height: 8vw;
+  width: 8vw;
+  border-radius: 10px;
+}

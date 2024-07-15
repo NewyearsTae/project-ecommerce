@@ -1,0 +1,27 @@
+.textstatusdamage{
+    font-size: 15px;
+    background: rgb(167, 17, 0);
+    width: 4vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+.textstatuscomplete{
+    font-size: 15px;
+    background: rgb(141, 141, 141);
+    width: 4vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+.textstatusempty{
+    font-size: 15px;
+    background: rgb(5, 165, 0);
+    width: 4vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    
+}

@@ -1,0 +1,77 @@
+.bgbtnpage{
+    /* background: rgb(114, 250, 137); */
+    width: 80%;
+    height: 3vw;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 2%;
+}
+
+.pageproduct{
+    background: rgb(165, 165, 165);
+    margin-left: 20px;
+    width: 5vw;
+    height: 2vw;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 20px;
+}
+.pageproduct:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all 0.5s ease;
+    opacity: 70%;
+}
+.pageproduct-active{
+    background: rgb(51, 51, 51);
+    margin-left: 20px;
+    width: 5vw;
+    height: 2vw;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 20px;
+}
+.pageproduct-active:hover{
+    cursor: pointer;
+}
+.statuslot{
+    display: flex;
+}
+.stlot1{
+    background: rgb(5, 165, 0);
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+}
+.stlot2{
+    background: rgb(141, 141, 141);
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+}
+.stlot3{
+    background: rgb(167, 17, 0);
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
+}
+.stdetail{
+    margin-top: 7px;
+    margin-left: 15px;
+}
+.barconsole{
+    display: flex;
+}
+.selecttype{
+    background: rgb(236, 236, 236);
+    margin-top: 3%;
+    height: 4vw;
+    width: 20%;
+    margin-left: 30px;
+    padding: 12px;
+    border-radius: 10px;
+}

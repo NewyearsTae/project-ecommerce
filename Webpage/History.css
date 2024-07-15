@@ -1,0 +1,69 @@
+.historybg{
+    display: flex;
+    /* background: saddlebrown; */
+    justify-content: center; /* ย้าย .contantct ไปตรงกลางแนวนอน */
+    align-items: center; /* ย้าย .contantct ไปตรงกลางแนวตั้ง */
+    height: auto; /* ให้ .contactbg มีความสูงเต็มหน้าจอ */
+    margin-top: 10px;
+  }
+.historypage{
+    background: rgb(255, 255, 255);
+    height: auto; /* เพิ่มความสูงสำหรับการทดสอบ */
+    width: 85%; /* เพิ่มความกว้างสำหรับการทดสอบ */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .orderhistory{
+    background: rgb(226, 226, 226);
+    height: 5vw;
+    width:  19vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* ย้าย .contantct ไปตรงกลางแนวตั้ง */
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-right: 103px;
+    
+
+}
+.Orderno{
+    margin-top: 10px;
+
+}
+.historyitem {
+  /* background: sandybrown;   */
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 5px
+}
+.historyitem2 {
+  /* background: sandybrown;   */
+  margin-top: 10px;
+  width: 90%;
+}
+.fixerroe{
+}
+.bgcomplainstatus{
+  /* background: salmon; */
+  margin-top: 3%;
+  width: 100%;
+}
+.complainstatus{
+  background: rgb(238, 238, 238);
+  padding: 20px;
+  border-radius: 20px;
+  width: auto;
+  margin-top: 3%;
+}
+.text{
+  display: flex;
+  width: auto;
+
+}
+.imgloop{
+  margin-left: 5px; 
+}

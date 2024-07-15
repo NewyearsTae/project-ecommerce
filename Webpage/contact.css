@@ -1,0 +1,55 @@
+.contactbg {
+  display: flex;
+  justify-content: center; /* ย้าย .contantct ไปตรงกลางแนวนอน */
+  align-items: center; /* ย้าย .contantct ไปตรงกลางแนวตั้ง */
+  height: 80vh; /* ให้ .contactbg มีความสูงเต็มหน้าจอ */
+}
+.contantct {
+  background: rgb(255, 255, 255);
+  height: 30vw; /* เพิ่มความสูงสำหรับการทดสอบ */
+  width: 60vw; /* เพิ่มความกว้างสำหรับการทดสอบ */
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column; /* ตั้งให้เรียงตามแนวตั้ง */
+  justify-content: center; /* ย้าย .iconct ไปตรงกลางแนวตั้ง */
+  align-items: center; /* ย้าย .iconct ไปตรงกลางแนวนอน */
+}
+.headct{
+  /* background: salmon  ; */
+  text-align: center;
+  color: rgb(56, 56, 56);
+  font-size: 1.6vw;
+  font-family: fantasy;
+}
+.iconct{
+  /* background: silver; */
+  height:20vw ;
+  width: 50vw;
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+}
+.icon1{
+  /* background: seagreen; */
+}
+.icon2{
+  /* background: rgb(83, 45, 155); */
+}
+.icon3{
+  /* background: rgb(173, 166, 58); */
+}
+.imgicon{
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  object-fit: cover;
+  filter: grayscale(50%);
+}
+.imgicon:hover{
+  border-radius: 30%;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  filter: grayscale(0%);
+}

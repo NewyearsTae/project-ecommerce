@@ -1,0 +1,21 @@
+.bgeditmain{
+    background: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.bgedit{
+    background: rgb(233, 233, 233);
+    padding: 10px;
+    width: 100%;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-right: 3%;
+    margin-left: 3%;
+}

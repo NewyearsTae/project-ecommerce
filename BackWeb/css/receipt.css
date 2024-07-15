@@ -1,0 +1,47 @@
+.image-container {
+    position: relative;
+    width: 50px; /* ปรับขนาดตามที่ต้องการ */
+    height: 50px; /* ปรับขนาดตามที่ต้องการ */
+}
+
+.icon-image {
+    width: 100%;
+    height: 100%;
+    cursor: pointer; /* เพิ่มคำสั่งนี้เพื่อให้เคอร์เซอร์เปลี่ยนเป็นแบบสามารถคลิกได้ */
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999; /* ให้อยู่ด้านหน้า */
+    overflow: auto; /* เพิ่มคำสั่งนี้เพื่อให้สามารถเลื่อนหน้าจอได้ถ้าภาพใหญ่เกินไป */
+}
+
+.expanded-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.icon-image.selected {
+    opacity: 0.5; /* ความทึบของไอคอนอื่นๆ ที่ไม่ได้คลิก */
+}
+.sidebar.selected {
+    background-color: #f8f9fa; /* เปลี่ยนสีเมื่อถูกเลือก */
+}

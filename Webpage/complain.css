@@ -1,0 +1,38 @@
+.pagebg{
+    width: 90vw;
+    height:auto;
+    background: rgb(211, 211, 211);
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 90px;
+    justify-content: center;
+    }
+.toppiccp{
+    display: flex;
+    padding: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(129, 129, 129);
+}
+.rightzone{
+ margin-left: 90px;
+ margin-top: 30px;
+}
+.cpcontent{
+    /* display: flex;    */
+}
+.send-btn {
+    float: right; /* Float the button to the right */
+    margin-right: 20px; /* Add some margin for spacing */
+  }
+  .imgsize{
+    height: 10vw;
+    width: 10vw;
+    object-fit: contain;
+  }
+  .btnbgbg{
+    display: flex;
+    float: right;
+  }

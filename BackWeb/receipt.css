@@ -1,0 +1,48 @@
+.paperbg{
+    /* background: fuchsia; */
+    display: flex;
+    justify-content: center; /* ย้าย .contantct ไปตรงกลางแนวนอน */
+    align-items: center; /* ย้าย .contantct ไปตรงกลางแนวตั้ง */
+    height: 100vh;
+  }
+  .paperorder {
+    /* background: salmon;  */
+    width: 60%;
+    height: auto;
+    padding: 20px;
+    align-items: baseline;
+    border: 2px solid black; /* เพิ่มกรอบสีดำ */
+}
+  .logopaper{
+    display: flex;
+  }
+  .toppic{
+    /* background: gold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .NOorders{
+    font-size: larger;
+    margin-right: 6%;
+  }
+  .detailorderpp{
+    /* background: seagreen; */
+    margin-top: 2%;
+    margin-left: 2%;
+  }
+  .tablepp{
+    display: flex;
+    /* background: hotpink; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+  }
+  .namepddt{
+    display: flex;
+  }
+
+  .logo{
+    width: 25%;
+    object-fit: contain;
+  }

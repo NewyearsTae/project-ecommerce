@@ -1,0 +1,56 @@
+.reportbg{
+    background: rgba(163, 163, 163, 0.308);
+    display: flex;
+    width: 100%;
+    height:auto;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .userdetail{
+    background: white;
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .reportdetail{
+    background-color: rgb(255, 255, 255);
+    width: 30vw;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .bgimgreport{
+    height: auto;
+    width: auto;
+  }
+  .imgreport{
+    height: 10vw;
+    width: 10vw;
+    padding: 10px;
+    object-fit: contain;
+  }
+  .descriptionreport{ 
+    background: rgb(146, 146, 146);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .bgbox{
+    background: rgb(226, 226, 226);
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+  }
+  .bgbgreport{
+    background: rgb(248, 248, 248);
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+    margin-left: 5%;
+  }
